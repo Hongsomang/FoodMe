@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dsm.foodme.SignInActivity">
+
+    <EditText
+        android:id="@+id/input_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/input_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/find_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id찾기" />
+
+    <TextView
+        android:id="@+id/find_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pw찾기" />
+
+    <TextView
+        android:id="@+id/start_not_member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비회원으로 시작하기" />
+
+    <TextView
+        android:id="@+id/not_member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원이 아니신가요?"/>
+
+</android.support.constraint.ConstraintLayout>
